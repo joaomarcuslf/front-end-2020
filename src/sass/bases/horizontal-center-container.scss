@@ -1,0 +1,5 @@
+.horizontal-center-container {
+  @extend .flex-container;
+
+  justify-content: center;
+}

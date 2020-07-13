@@ -1,0 +1,14 @@
+.navbar-element {
+  @extend .vertical-center-container;
+  @extend .horizontal-center-container;
+
+  height: 10vh;
+
+  padding: 10px;
+
+  background-color: rgba(100, 200, 20, .1);
+
+  .brand-name {
+    // width: 2em;
+  }
+}

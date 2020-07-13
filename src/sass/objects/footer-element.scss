@@ -1,0 +1,17 @@
+.footer-element {
+  @extend .flex-container;
+
+  height: 5vh;
+
+  padding: 10px;
+
+  background-color: rgba(100, 200, 20, .7);
+
+  position: fixed;
+  bottom: 0;
+
+  .developed-by {
+    @extend .vertical-center-container;
+    @extend .horizontal-center-container;
+  }
+}

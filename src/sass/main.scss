@@ -1,2 +1,10 @@
 @charset "utf-8";
 @import "../../node_modules/bulma/bulma.sass";
+
+@import "./bases/flex-container";
+@import "./bases/vertical-center-container";
+@import "./bases/horizontal-center-container";
+
+@import "./objects/navbar-element";
+@import "./objects/content-element";
+@import "./objects/footer-element";

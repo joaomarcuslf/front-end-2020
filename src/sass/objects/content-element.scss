@@ -1,0 +1,20 @@
+.content-element {
+  @extend .flex-container;
+
+  flex-direction: column;
+
+  height: 90vh;
+
+  background-color: rgb(255, 250, 183);
+
+  padding: 8px 16px;
+
+  .main-title {
+    @extend .title;
+    @extend .is-family-primary;
+  }
+
+  .content {
+    @extend .is-family-sans-serif;
+  }
+}
