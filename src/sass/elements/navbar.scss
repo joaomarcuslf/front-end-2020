@@ -1,0 +1,40 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 10vh;
+
+  background-color: rgb(200, 200, 100);
+
+  &__brand {
+    display: flex;
+    justify-content: center;
+
+    flex: 1;
+
+    font-weight: bolder;
+    font-size: 2rem;
+  }
+
+  &__links {
+    display: flex;
+    justify-content: space-evenly;
+    flex: 4;
+
+    font-weight: bolder;
+    font-size: 1.5rem;
+  }
+
+  &__link {
+    text-decoration: none;
+
+    color: #fefefe;
+
+    &--active {
+      text-decoration: underline;
+
+      color: #aefefe;
+    }
+  }
+}
