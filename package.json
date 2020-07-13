@@ -12,6 +12,7 @@
     "build-prod": "NODE_ENV=production npm run build"
   },
   "dependencies": {
+    "bootstrap": "^4.5.0",
     "bulma": "^0.9.0"
   },
   "devDependencies": {

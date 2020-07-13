@@ -1,2 +1,15 @@
 @charset "utf-8";
 @import "../../node_modules/bulma/bulma.sass";
+
+/*
+  Using ITCSS Structure in imports
+*/
+
+@import
+  'settings/settings',
+  'tools/tools',
+  'generic/generic',
+  'elements/elements',
+  'objects/objects',
+  'components/components',
+  'trumps/trumps';
